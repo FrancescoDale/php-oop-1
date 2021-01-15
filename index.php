@@ -38,6 +38,14 @@
 
         $divo = new Movie('Il Divo','italian','2008');
 
-        echo "Titolo : " .$divo->getMovieTitle();
+        echo "Film 1";
+        echo "<br>";
+
+        echo "Titolo : " . $divo->getMovieTitle();
+        echo "<br>";
+        echo "Lingua : " . $divo->getMovieLanguage();
+        echo "<br>";
+        echo "Anno : " . $divo->getMovieYear();
+        echo "<br>";
 
 ?>
