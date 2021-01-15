@@ -38,26 +38,26 @@
 
         $divo = new Movie('Il Divo','italian','2008');
 
-        echo "Film 1";
-        echo "<br>";
+        echo "<p>Film 1 </p>";
 
-        echo "Titolo : " . $divo->getMovieTitle();
-        echo "<br>";
-        echo "Lingua : " . $divo->getMovieLanguage();
-        echo "<br>";
-        echo "Anno : " . $divo->getMovieYear();
-        echo "<br>";
 
-        $film = new Movie('Il Capitale Umano','italian','2014');
+        echo "<p>Titolo : " . $divo->getMovieTitle() . "</p>";
 
-        echo "Film 2";
-        echo "<br>";
+        echo "<p>Lingua : " . $divo->getMovieLanguage() . "</p>";
 
-        echo "Titolo : " . $film->getMovieTitle();
-        echo "<br>";
-        echo "Lingua : " . $film->getMovieLanguage();
-        echo "<br>";
-        echo "Anno : " . $film->getMovieYear();
-        echo "<br>";
+        echo "<p>Anno : " . $divo->getMovieYear() . "</p>";
+
+
+        $film = new Movie('Il Capitale Umano','italian','2013');
+
+        echo "<p>Film 2 </p>";
+
+
+        echo "<p>Titolo : " . $film->getMovieTitle() . "</p>";
+
+        echo "<p>Lingua : " . $film->getMovieLanguage() . "</p>";
+
+        echo "<p>Anno : " . $film->getMovieYear() . "</p>";
+
 
 ?>
