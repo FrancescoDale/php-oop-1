@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>PHP OOP 1</title>
-    </head>
-    <body>
+<?php
+        echo "test";
+        echo "<br>";
 
-        <?php
         class Movie {
 
             // dichiarazione variabili
@@ -14,6 +9,14 @@
             public $title;
             public $language;
             public $year;
+
+            //costruttore
+
+            function __construct($_title, $_language, $_year) {
+                $this->title = $_title;
+                $this->language = $_language;
+                $this->year = $_year;
+            }
 
 
             // metodi
@@ -31,7 +34,7 @@
             }
         }
 
-        ?>
+        //istanze
 
-    </body>
-</html>
+
+?>
