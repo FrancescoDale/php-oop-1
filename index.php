@@ -48,4 +48,16 @@
         echo "Anno : " . $divo->getMovieYear();
         echo "<br>";
 
+        $film = new Movie('Il Capitale Umano','italian','2014');
+
+        echo "Film 2";
+        echo "<br>";
+
+        echo "Titolo : " . $film->getMovieTitle();
+        echo "<br>";
+        echo "Lingua : " . $film->getMovieLanguage();
+        echo "<br>";
+        echo "Anno : " . $film->getMovieYear();
+        echo "<br>";
+
 ?>
