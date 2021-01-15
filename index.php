@@ -6,5 +6,17 @@
     </head>
     <body>
 
+        <?php
+        class Movie {
+
+            public $title;
+            public $language;
+            public $year;
+
+            
+        }
+
+        ?>
+
     </body>
 </html>
