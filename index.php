@@ -19,15 +19,15 @@
             // metodi
 
             public function getMovieTitle() {
-
+                return $this->title;
             }
 
             public function getMovieLanguage() {
-
+                return $this->language;
             }
 
             public function getMovieYear() {
-
+                return $this->year;
             }
         }
 
