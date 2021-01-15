@@ -1,6 +1,6 @@
 <?php
-        echo "test";
-        echo "<br>";
+        // echo "test";
+        // echo "<br>";
 
         class Movie {
 
@@ -36,5 +36,8 @@
 
         //istanze
 
+        $divo = new Movie('Il Divo','italian','2008');
+
+        echo "Titolo : " .$divo->getMovieTitle();
 
 ?>
